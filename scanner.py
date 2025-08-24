@@ -41,7 +41,7 @@ def run_scan(host, start_port, end_port, threads, output):
         t.daemon = True
         t.start()
     q.join()
-    duration = datetime.now() - start_time.total_seconds()
+    duration = (datetime.now() - start_time).total_seconds()
     print(f"\nVarredura concluída em {duration} segundos.")
     print(f"Portas abertas: {len(open_ports)}")
     if output:
