@@ -16,6 +16,6 @@ Permite verificar portas abertas em um host, com suporte a **multithreading**, *
 
 ## 📦 Instalação
 ```bash
-git clone https://github.com/seu-usuario/port-scanner.git
+git clone https://github.com/marcosmacedo-cs/port-scanner.git
 cd port-scanner
 python scanner.py --help
