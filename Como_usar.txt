@@ -1,8 +1,0 @@
-Escanear uma faixa de portas:
-python .\scanner.py --start 1 --end 100 --threads 10 127.0.0.1
-
-Scan rápido (portas comuns):
-python scanner.py scanme.nmap.org --common
-
-Exportar resultados para JSON:
-python scanner.py 127.0.0.1 --start 1 --end 200 --output resultado.json
